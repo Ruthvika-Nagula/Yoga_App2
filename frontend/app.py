@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 
 # Render backend URL
-BACKEND_URL = "http://localhost:8000/api"
+BACKEND_URL = "https://yoga-app2.onrender.com"
 
 st.set_page_config(
     page_title="Yoga Wellness RAG",
