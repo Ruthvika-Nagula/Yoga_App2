@@ -46,7 +46,7 @@ if ask_clicked and query.strip():
                 #  Safety warning block
                 if data.get("isUnsafe"):
                     st.markdown(
-                        "<div style='border-left:4px solid black; padding:0.6rem 1rem; background:#eeeee4; border-radius:6px;'>"
+                        "<div style='border-left:4px solid #DC2626; padding:0.6rem 1rem; background:#FCA5A5; border-radius:6px;'>"
                         "<strong>⚠ Safety warning:</strong><br/>"
                         f"{data.get('safetyMessage') or 'Your question may involve health risks.'}"
                         "</div>",
